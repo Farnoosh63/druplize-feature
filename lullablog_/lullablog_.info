@@ -1,0 +1,12 @@
+name = lullablog 
+description = A practice feature for a blog
+core = 7.x
+package = Features
+dependencies[] = blog
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[menu_custom][] = management
+features[menu_links][] = management_main-menu:admin/structure/menu/manage/main-menu
